@@ -27,11 +27,11 @@
        margin: 10px;
        padding: 5px;
    }
-   
+   /*  */
    .blue-text{
        color:blue;
    }
-   
+   /*
    #head{
        padding: 15px;
        background-color: red;
@@ -66,7 +66,7 @@
     padding: 0px;
     border-radius: 10px;
     text-align: justify;
-    /* vertical-align: top; */
+    vertical-align: top;
     background-color: #ccc;
     font-family: Georgia;
     background-color: inherit;
@@ -96,15 +96,22 @@ h1{
 }
 #container_side_bar {
     width: 200px;
-    padding: 10px;
+    /* padding: 10px 5px 5px 10px; */
     background-color: #2a7d8c;
     /* position: static; */
     display: inline-block;
+}
+#side_bar_list{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
 }
 #container_main_text {
     width: 750px;
     background-color: #0e1822;
     display: inline-block;
+    padding: 20px;
+    font-size: 12px;
 }
 #container_bottom {
     background-color: #5d6673;
